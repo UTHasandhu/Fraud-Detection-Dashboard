@@ -2,7 +2,17 @@ docs/FileMap.txt
 transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.GeneratedMSBuildEditorConfig.editorconfig
 .gitignore
 .suo
-.vsidx
+*.exe
+*.dylib
+*.cache
+*.so
+*.vsidx
+*.dll
+*.pdb
+*.FileListAbsolute.txt
+*.BuildWithSkipAnalyzers
+*.Up2Date
+*.dgspec.json
 
 transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.AssemblyInfo.cs
 transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.GlobalUsings.g.cs
@@ -14,3 +24,13 @@ transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGener
 transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.csproj.AssemblyReference.cache
 .gitignore
 transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.AssemblyInfoInputs.cache
+transaction-generator/src/TransactionGenerator/.vs/TransactionGenerator/FileContentIndex/0bd0dc77-59ad-475e-b913-0b92e208dd50.vsidx
+transaction-generator/src/TransactionGenerator/obj/project.assets.json
+transaction-generator/src/TransactionGenerator/obj/TransactionGenerator.csproj.nuget.g.props
+transaction-generator/src/TransactionGenerator/obj/project.nuget.cache
+
+transaction-generator/src/TransactionGenerator/obj/TransactionGenerator.csproj.nuget.g.props
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.sourcelink.json
+transaction-generator/src/TransactionGenerator/obj/TransactionGenerator.csproj.nuget.dgspec.json
+transaction-generator/src/TransactionGenerator/obj/project.nuget.cache
+transaction-generator/src/TransactionGenerator/.vs/TransactionGenerator/DesignTimeBuild/.dtbcache.v2

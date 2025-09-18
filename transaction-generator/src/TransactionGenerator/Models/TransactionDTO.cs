@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TransactionGenerator.Models
 {
-    internal class TransactionModel
+    internal class TransactionDTO
     {
         int ClientNum { get; set; }
         string AttritionFlag { get; set; } // "Existing Customer" / "Attrited Customer"
