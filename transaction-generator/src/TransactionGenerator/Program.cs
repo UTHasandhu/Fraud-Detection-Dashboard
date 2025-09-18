@@ -35,7 +35,7 @@ class Program
         foreach (var record in transactions)
         {
             var json = JsonConvert.SerializeObject(record);
-            // await producer.ProduceAsync("transactions", new Message<Null, string> { Value = json });
+            await producer.ProduceAsync("transactions", new Message<Null, string> { Value = json });
             Console.WriteLine($"Produced: {json}");
             await Task.Delay(500); // slow down stream for demo
         }
