@@ -1,1 +1,16 @@
 docs/FileMap.txt
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.GeneratedMSBuildEditorConfig.editorconfig
+.gitignore
+.suo
+.vsidx
+
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.AssemblyInfo.cs
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.GlobalUsings.g.cs
+transaction-generator/src/TransactionGenerator/.vs/TransactionGenerator/FileContentIndex/b0f0ac6c-604a-4478-8a83-5204681c27b9.vsidx
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+transaction-generator/src/TransactionGenerator/.vs/TransactionGenerator/FileContentIndex/6800f063-9b63-4d0d-aa7b-df4a9d2f3658.vsidx
+.gitignore
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.assets.cache
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.csproj.AssemblyReference.cache
+.gitignore
+transaction-generator/src/TransactionGenerator/obj/Debug/net8.0/TransactionGenerator.AssemblyInfoInputs.cache
