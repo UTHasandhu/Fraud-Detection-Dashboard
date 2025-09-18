@@ -6,32 +6,32 @@ using System.Threading.Tasks;
 
 namespace TransactionGenerator.Models
 {
-    internal class TransactionDTO
+    public class TransactionDTO
     {
-        int ClientNum { get; set; }
-        string AttritionFlag { get; set; } // "Existing Customer" / "Attrited Customer"
-        int CustomerAge { get; set; }
-        string Gender { get; set; }
-        int DependentCount { get; set; }
-        string EducationLevel { get; set; }
-        string MaritalStatus { get; set; }
-        string IncomeCategory { get; set; }
-        string CardCategory { get; set; }
-        int MonthsOnBook { get; set; }
-        int TotalRelationshipCount { get; set; }
-        int MonthsInactive12Mon { get; set; }
-        int ContactsCount12Mon { get; set; }
-        decimal CreditLimit { get; set; }
-        decimal TotalRevolvingBal { get; set; }
-        decimal AvgOpenToBuy { get; set; }
-        decimal TotalAmtChngQ4Q1 { get; set; }
-        decimal TotalTransAmt { get; set; }
-        int TotalTransCt { get; set; }
-        decimal TotalCtChngQ4Q1 { get; set; }
-        decimal AvgUtilizationRatio { get; set; }
+        public int ClientNum { get; set; }
+        public string AttritionFlag { get; set; } // "Existing Customer" / "Attrited Customer"
+        public int CustomerAge { get; set; }
+        public string Gender { get; set; }
+        public int DependentCount { get; set; }
+        public string EducationLevel { get; set; }
+        public string MaritalStatus { get; set; }
+        public  string IncomeCategory { get; set; }
+        public string CardCategory { get; set; }
+        public int MonthsOnBook { get; set; }
+        public int TotalRelationshipCount { get; set; }
+        public int MonthsInactive12Mon { get; set; }
+        public int ContactsCount12Mon { get; set; }
+        public decimal CreditLimit { get; set; }
+        public decimal TotalRevolvingBal { get; set; }
+        public decimal AvgOpenToBuy { get; set; }
+        public decimal TotalAmtChngQ4Q1 { get; set; }
+        public decimal TotalTransAmt { get; set; }
+        public int TotalTransCt { get; set; }
+        public decimal TotalCtChngQ4Q1 { get; set; }
+        public decimal AvgUtilizationRatio { get; set; }
 
         // Keeping these for full schema parity
-        decimal NaiveBayesAttrition1 { get; set; }
-        decimal NaiveBayesAttrition2 { get; set; }
+        public decimal NaiveBayesAttrition1 { get; set; }
+        public decimal NaiveBayesAttrition2 { get; set; }
     }
 }
